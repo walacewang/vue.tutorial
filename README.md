@@ -20,7 +20,7 @@ npm install -g vue-cli
 
 ##  create a project
 ```bash
-vue init webpack  &lt;project-name&gt;</pre><code>
+vue init webpack  <project-name>
 ```
 *  example:
 ```bash
