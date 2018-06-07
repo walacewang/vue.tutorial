@@ -14,12 +14,15 @@
 ```html
 <p v-if="seen">display</p>
 ```
->如果是多条语句时，使用<templete>
+>如果是多条语句时，使用<templete>,也可以组合使用else
 ```html
 <template v-if="ok">
-  <h1>Title</h1>
-  <p>Paragraph 1</p>
-  <p>Paragraph 2</p>
+  <h1>Beijing</h1>
+  <p>Welcome to Beijing.</p>
+</template>
+<template v-else>
+  <h1>Shanghai</h1>
+  <p>Welcome to Shanghai.</p>
 </template>
 ```
 4. [v-for]循环
