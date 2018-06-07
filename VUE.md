@@ -72,3 +72,16 @@ var app6 = new Vue({
   }
 })
 ```
+  
+* ## 注意事项
+
+1. ### 由于 JavaScript 的限制，Vue 不能检测以下变动的数组：
+* 当你利用索引直接设置一个项时，例如：vm.items[indexOfItem] = newValue
+* 当你修改数组的长度时，例如：vm.items.length = newLength
+
+```html
+vm.$set(vm.items, indexOfItem, newValue)
+```
+```html
+vm.items.splice(newLength)
+```
