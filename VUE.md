@@ -74,9 +74,10 @@ var app6 = new Vue({
 ```
   
 * ## 注意事项
-> [注意](https://cn.vuejs.org/v2/guide/list.html#%E5%AF%B9%E8%B1%A1%E6%9B%B4%E6%94%B9%E6%A3%80%E6%B5%8B%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
 
 1. ### 由于 JavaScript 的限制，Vue 不能检测以下变动的数组：
+> [注意](https://cn.vuejs.org/v2/guide/list.html#%E5%AF%B9%E8%B1%A1%E6%9B%B4%E6%94%B9%E6%A3%80%E6%B5%8B%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
+
 * 当你利用索引直接设置一个项时，例如：vm.items[indexOfItem] = newValue
 * 当你修改数组的长度时，例如：vm.items.length = newLength
 
@@ -86,3 +87,5 @@ vm.$set(vm.items, indexOfItem, newValue)
 ```html
 vm.items.splice(newLength)
 ```
+2. ### 事件修饰符
+> [注意](https://cn.vuejs.org/v2/guide/events.html#%E4%BA%8B%E4%BB%B6%E4%BF%AE%E9%A5%B0%E7%AC%A6)
