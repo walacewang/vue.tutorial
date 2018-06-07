@@ -74,6 +74,7 @@ var app6 = new Vue({
 ```
   
 * ## 注意事项
+> [注意](https://cn.vuejs.org/v2/guide/list.html#%E5%AF%B9%E8%B1%A1%E6%9B%B4%E6%94%B9%E6%A3%80%E6%B5%8B%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
 
 1. ### 由于 JavaScript 的限制，Vue 不能检测以下变动的数组：
 * 当你利用索引直接设置一个项时，例如：vm.items[indexOfItem] = newValue
