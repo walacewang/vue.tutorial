@@ -16,13 +16,17 @@
 ```
 >如果是多条语句时，使用<templete>,也可以组合使用else
 ```html
-<template v-if="ok">
+<template v-if="city==='B'">
   <h1>Beijing</h1>
   <p>Welcome to Beijing.</p>
 </template>
-<template v-else>
+<template v-else-if="city === 'S'">
   <h1>Shanghai</h1>
   <p>Welcome to Shanghai.</p>
+</template>
+<template v-else>
+  <h1>unknown</h1>
+  <p>Welcome</p>
 </template>
 ```
 4. [v-for]循环
