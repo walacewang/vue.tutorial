@@ -14,6 +14,14 @@
 ```html
 <p v-if="seen">display</p>
 ```
+>如果是多条语句时，使用<templete>
+```html
+<template v-if="ok">
+  <h1>Title</h1>
+  <p>Paragraph 1</p>
+  <p>Paragraph 2</p>
+</template>
+```
 4. [v-for]循环
 ```html
   <ol>
