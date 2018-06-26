@@ -7,3 +7,13 @@
 
 ## 文件上传
 * [第三方-https://github.com/lian-yue/vue-upload-component](https://github.com/lian-yue/vue-upload-component)
+
+
+## VUE router 外部连接
+* [第三方-https://github.com/vuejs/vue-router/issues/1280](https://github.com/vuejs/vue-router/issues/1280)
+```js
+{
+    path: '/twitter',
+    beforeEnter() { location.href = 'http://twitter.com' }
+}
+```
