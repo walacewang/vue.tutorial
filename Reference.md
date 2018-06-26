@@ -10,7 +10,7 @@
 
 
 ## VUE router 外部连接
-* [第三方-https://github.com/vuejs/vue-router/issues/1280](https://github.com/vuejs/vue-router/issues/1280)
+* [外部连接做成办法-https://github.com/vuejs/vue-router/issues/1280](https://github.com/vuejs/vue-router/issues/1280)
 ```js
 {
     path: '/twitter',
